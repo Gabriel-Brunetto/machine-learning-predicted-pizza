@@ -1,30 +1,37 @@
-# Pizza Price Predictor
+# 🍕 Pizza Price Predictor
 
-A simple machine learning application that predicts pizza prices based on diameter using linear regression.
+A simple Machine Learning application that predicts pizza prices based on pizza diameter using Linear Regression.
 
-## Description
+## 📌 Project Overview
+This project demonstrates the practical application of a supervised Machine Learning model to solve a simple regression problem. The application predicts the price of a pizza based on its diameter (in centimeters) and provides an interactive interface for user input.
 
-This Streamlit application uses a linear regression model to predict pizza prices based on their diameter in centimeters. The model is trained on data from a CSV file containing pizza diameters and their corresponding prices.
+The goal of this project is educational, focusing on the integration of data processing, model training, and user interaction through a web interface.
 
-## Features
+## 🧠 Model Description
+A Linear Regression model from the scikit-learn library is used to model the relationship between pizza diameter and price. The model is trained using historical data stored in a CSV file.
 
-- Interactive web interface built with Streamlit
-- Linear regression model for price prediction
-- Real-time price calculation based on user input
-- Simple and intuitive UI
+## 🚀 Features
+- Interactive web interface built with Streamlit  
+- Linear Regression model for price prediction  
+- Real-time price calculation based on user input  
+- Simple and intuitive user interface  
 
-## Requirements
+## 🛠️ Technologies Used
+- Python 3
+- Streamlit
+- Pandas
+- Scikit-learn
 
+## 📦 Requirements
 - Python 3.x
 - streamlit
 - pandas
 - scikit-learn
 
-## Installation
-
+## 🔧 Installation
 ```bash
 pip install streamlit pandas scikit-learn
-```
+
 
 ## Usage
 
